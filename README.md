@@ -1,2 +1,2 @@
-# apps_for_field_biology
+# apps for field biology
 Compendium of smartphone applications for field biology
