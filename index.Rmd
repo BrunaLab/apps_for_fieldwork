@@ -5,210 +5,246 @@ output:
         toc: TRUE
         toc_float: TRUE
 ---
-<link rel="stylesheet" href="styles.css" type="text/css">
-<link rel="stylesheet" href="academicons.min.css"/>
-<!-- Webpage tutorial: http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html -->
 
-This list began as part of the student project for the 2011 edition of my graduate course in Plant-Animal Interactions.  As part of the class, my students developed a guide to the native tree species of the University of Florida campus, with information on the their dispersers, pollinators, and herbivores (you can download it here for your Android smartphone). The students also wrote a paper in the Bulletin of the Ecological Society of America describing the process and laying out some of the ways smartphones can be used in ecological research, teaching, and extension).
+```{r setup, include=FALSE,echo=FALSE,message = FALSE,warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, fig.align="center")
+library(tidyverse)
+library(fontawesome)
+library(kableExtra)
+# devtools::install_github("hadley/emo")
+library(emo)
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
 
-## Essential Accessories
+<!-- https://stackoverflow.com/questions/48506712/kable-kableextra-cells-with-hyperlinks  -->
+<!-- <link rel="stylesheet" href="styles.css" type="text/css"> -->
+<!-- <link rel="stylesheet" href="academicons.min.css"/> -->
+<!-- Webpage tutorial: http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html  -->
 
-1. **A lanyard: **minimizes the risk of your phone getting damaged should it slip out of your hands or fall out of your pocket or pack. It is also a much quicker way to alternate between the phone and work requiring two hands.  You can find loads of wrist and neck lanyards online (USALanyards.com even has glow in the dark ones that seem like they would be good for people working at night).
+This list began as part of the group project for the 2011 edition of my graduate course in Plant-Animal Interactions. As part of the class, my students developed a guide to the native tree species of the University of Florida campus, with information on the their dispersers, pollinators, and herbivores. The students also wrote a [paper in the _Bulletin of the Ecological Society of America_](https://www.jstor.org/stable/bullecosociamer.93.4.390) describing the process and laying out some of the ways smartphones can be used in ecological research, teaching, and extension).
 
-    Most lanyards require cases or phones with a lanyard slot. If your phone or case doesn't have one - seems like most don't - you can hack one (see this example for the Galaxy Note phone or this one for iphone cases). Alternatively, you can buy an aftermarket clip that you screw into the baseplate of your phone and just attach the lanyard to that. Right now I am using a carabiner clip from Poddities, which I just clip to the inexpensive but very sturdy UCSD Revelle College lanyard I use to carry my keys, though note it may not work with all cases and charging stands. If this is too big for your taste Poddities also makes a very low-profile base clip called the Netsuke (buy on Amazon), but note when my lanyard got snagged on a branch it slightly bent the base plate, making it a bit tough to for the Lightning cable to fit  properly.  
+## Essential Accessories 
+
+1. **A lanyard: **minimizes the risk of your phone getting damaged should it slip out of your hands or fall out of your pocket or pack. It is also a much quicker way to alternate between the phone and work requiring two hands.  You can find loads of wrist and neck lanyards online; including [glow-in-the-dark ones](http://www.usalanyards.com/glow-in-the-dark-cell-phone-straps-ly-603.aspx) that seem like they would be good for people working at night).
+
+    Many lanyards require cases or phones with a lanyard slot. If your phone or case doesn't have one (e.g., iPhones), you can you can buy an aftermarket clip that you screw into the baseplate of your phone and just attach the lanyard to that. Right now I am using a carabiner clip from Poddities, which I just clip to the inexpensive but very sturdy UCSD Revelle College lanyard I use to carry my keys, though note it may not work with all cases and charging stands. If this is too big for your taste Poddities also makes a very low-profile base clip called the Netsuke (buy on Amazon), but note when my lanyard got snagged on a branch it slightly bent the base plate, making it a bit tough to for the Lightning cable to fit  properly.  
 
     Beeline has launched a sweet-looking case with a built in retractable carabiner clip. UPDATE: My new fav is this simple, inexpensive silicone cell phone sling that you can clip to a lanyard.  
 
-2. **A drop-resistant (or waterproof) case: **lots of blog posts summarize the options (see this one, this one, and this one for starters).  If you run the risk of dropping your pack in a stream or you work in environments where it rains, consider a case or sleeve that is waterproof but still allows you to use your phone for data entry.
+2. **A drop-resistant case: **lots of blog posts summarize the options (e.g., ---, ----, ---). If you run the risk of dropping your pack in a stream or you work in environments where it rains, consider a case or sleeve that is waterproof but still allows you to use your phone for data entry.
 
 3. **Other Accessories**
 
-     - Do you record sound or interviews? You need a good external microphone. If you do playback you probably want better speakers too - the speakers on this list are all waterproof.
+     - **Microphone.** Essential if you record audio or conduct interviews. If you do playback you probably want better speakers too - the speakers on this list are all waterproof.
 
-      - A selfie stick.  I know, I know.  But it is useful for pictures of plots you can't reach, branches, and yes pictures of you doing field work. And don't pretend you didn't want an excuse to buy one. Get one with bluetooth shutter.
+      - **Selfie Stick.** I know, I know.  But it is useful for pictures of plots you can't reach, branches, and yes pictures of you doing field work. And don't pretend you didn't want an excuse to buy one. Get one with bluetooth shutter.
+      
+      - **Monopod or Tipod.**
 
-      - Do you take photos in the field? Insects or leaves with a macro lens? Canopy photos with a fisheye lens? There are plenty of reviews of lens kits out there (maybe we can convince Alex to post an update to this 2010 Myrmecos.net post?).
+      - **Photo Lens Kit**  Do you take photos in the field? Insects or leaves with a macro lens? Canopy photos with a fisheye lens? There are plenty of reviews of lens kits out there (maybe we can convince Alex to post an update to this 2010 Myrmecos.net post?).
 
       - Where to buy accessories: In addition to Amazon, check out Photojojo, which has has a million (mostly iphone) accessories aimed at photographers, and there is  a lot here that would be of use to field scientists.
 
 
-## Apps (organized by Category)
+## Apps (by Category)
 
-### Field Safety & Communications
+### Field Safety & Communications  
 
+1. [SOS One Click](https://appadvice.com/app/sos-one-click-send-emergency-alert-help-messages-through/625607281): send gps-referenced messages when you need help via text, email, posts to social media profiles 
+1. [Compass](http://hrtapps.com/) `r fa("apple", fill="gray")`
+1. [50 apps that could save your life in an emergency](http://prepared-housewives.com/emergency-apps-that-might-just-save-your-life/): Includes first aid, disaster preparedness, emergency alerts, and more.  
 
+### Recording Data, Creating Forms
 
-1. SOS One Click - send gps-referenced messages when you need help via text, email, posts to social media profiles  
-2. Guardly - paid service for organizations that need to keep advise people of emergencies
-3. "50 apps that could save your life in an emergency" Includes first aid, disaster preparedness, emergency alerts, and more.  
-4. Twitter or Plume for Twitter accounts  
-5. WhatsApp  
-
-### Data Entry, Recording Observations
-
-  * EpiCollect  
-  * EpiSurveyor  
-  * KoBoToolbox  
-  * iFormBuilder  
-  * Ushahidi  
-  * SciSpy  
-  * Project Noah  
-  * Inaturalist  
-  * Map of Life  
-  * SciSpy  
-  * Pendragon Forms (Windows Mobile only)  
-  * Easy Data  
-  * AmigoCloud: geospatial platform that helps you collect, manage, analyze, visualize, and publish your location data.  
-  * Open Data Kit: includes built in publish data function to send completed data to an *   online database and from there, link in with Google's Fusion Tables and Earth.  
-  * Fulcrum  
-  * iMapInvasives: all-taxa invasive species mapping tool; workes via phone's web browser  
-  * CyberTracker   
-  * WildObs  
-  * PhenomApp: collect plant phenotypes in the field using Android tablets and smart phones  
-  * Sightings, by Stewart Macdonald  
-  * Observation Logger: logging observations of behavioral data  
-  * Neukadye Timestamped Field Notes (quick behavioral observations notes)  
-  * Neukadye Field Journal (timestamped & geo-located notes; can export to the cloud.  
-  *  CitSci.org: designed for developing Citizen Science projects/data collection apps but looks to have utility far beyond that.  
-  * Germinate Scan: barcode scanning + data recording  
+1. [EpiCollect](https://five.epicollect.net/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [KoBoToolbox](https://www.kobotoolbox.org/)  `r fa("android", fill = "gray")`
+1. [iFormBuilder](https://www.zerionsoftware.com/iformbuilder)  `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [Ushahidi](https://www.ushahidi.com/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`: geared towards crowd-sourced data, allows SMS submissions  
+1. [Map of Life](https://mol.org/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [CyberTracker](https://cybertracker.org/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")` 
+1. [PhenomApp](https://knowledge-base.phenome-networks.com/kb/en/article/phenomapp) `r fa("android", fill = "gray")`: record observations and selections on plants and plots in the field 
+1. [Sightings](https://apps.apple.com/au/app/sightings/id539447284) `r fa("apple", fill="gray")`
+1. [Neukadye](https://www.neukadye.com/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`:  Time-stamped and geo-located field Notes
+1. [CitSci.org](CitSci.org) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`: designed for developing Citizen Science projects/data collection apps but looks to have utility far beyond that.
+1. [Germinate Scan](https://ics.hutton.ac.uk/germinate-scan/) `r fa("android", fill = "gray")`: barcode scanning & data recording |
+1. Paid platforms for building forms and remote data collection; hard to imagine a project that would require these instead of one of the free options above: [Pendragon Forms](https://www.pendragonforms.com/), [Easy Data](https://www.easydata.nl/), [AmigoCloud](https://amigocloud.com/), [Open Data Kit](https://getodk.org/), [Fulcrum](https://www.fulcrumapp.com/)
 
 ### Leaf Area, Canopy Cover, Herbivory
 
-  * Canopeo by Oklahoma State University: analysis of forest canopy cover (iOS)  
-  * Canopy Cover Free: measures % Canopy Cover non-destructively using camera. (Android OS)  
-  * Easy Leaf Area: measure leaf area non-destructively  (Android OS)  
-  * LeafByte (iOS): measuring herbivory on leaves.  
-  * LeafScan: leaf area measurements (iOS)  
-  * Petiole: leaf area measurements (Android OS)  
-  * Leaf-IT: leaf area measurements (Android OS)  
-  * Gap Light analysis Mobile Apps (Android OS): analysis of hemispherical photographs taken in forests and calculation of Canopy Cover Index.  
-  * Pocket LAI - smartphone app for estimating Leaf-Area Index: Read about it here   (presentation) and here (journal article). It is €35 for public institutes and students/€70 euros for private companies and currently available for Android, with iOS version available in spring 2015. For more information or to purchase contact: cassandra.lab@unimi.it.  
+1. Canopy Cover, Gap Light Analysis, LAI
+      * [Canopeo](https://www.canopeoapp.com/#/login) `r fa("android", fill = "gray")`
+      * [Canopy Capture](https://nikp29.github.io/CanopyCapture/) `r fa("android", fill = "gray")`
+      * [Gap Light Aalysis](https://play.google.com/store/apps/details?id=new4.glama.glamanew4&hl=en_US&gl=US)  `r fa("android", fill = "gray")`
+      * [Pocket LAI](https://cassandratech.it/en/pocketlai-en/) `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")` _(highly discounted for education)_
+1. Leaf Area
+      * [Easy Leaf Area](https://play.google.com/store/apps/details?id=com.heaslon.EasyLeafArea&hl=en_US&gl=US) `r fa("android", fill = "gray")`
+      * [LeafScan](http://www.leafscanapp.com/) `r fa("android", fill = "gray")`
+      * [Petiole](https://petioleapp.com/leaf-area-measurement-petiole/) `r fa("android", fill = "gray")`
+      * [Leaf-IT](https://play.google.com/store/apps/details?id=de.yahoo.gisopillar.leafit&hl=en_US&gl=US) `r fa("android", fill = "gray")`
+1. Herbivory
+      * [LeafByte](https://zoegp.science/leafbyte) `r fa("apple", fill = "gray")`
 
-### Environmental Data
+### Info on Local Environment
 
-  * SoilWeb: portable version of online interface to USDA-NRCS digital soil survey  
-  * LightTracker: Twilight, Sunrise, Sunset and solar noon information for any date, moon phases and rise for any date  
-  * RiverFlows and WaterTracker: view data from USGS and NOAA gauge sites to get real-time river-level information.  
-  * Marine Weather Plus: marine forecasts, live buoy data, tides, radar, & sea surface temperatures  
-  * DarkSkyMeter: Estimate the brightness of the night sky with Iphone camera  
+1. [SoilWeb](https://casoilresource.lawr.ucdavis.edu/gmap/): portable version of online interface to USDA-NRCS digital soil survey   
+1. Solar/Lunar Position, Timing, Duration, & Tracking
+    * [Sun position and path](https://apps.apple.com/us/app/sun-position-and-path/id1502500167) `r fa("apple", fill = "gray")`
+    * [LightTrac](https://apps.apple.com/us/app/lighttrac/id392892355) `r fa("apple", fill = "gray")` `r fa("dollar-sign", fill = "gray")`
+    * [Sun Surveyor Lite](https://apps.apple.com/us/app/sun-surveyor-lite/id552754407) `r fa("apple", fill = "gray")`
+1. [RiverFlows](https://play.google.com/store/apps/details?id=com.riverflows&hl=en_US&gl=US) `r fa("apple", fill = "gray")`
+1. [WaterTracker](https://data.pointblue.org/apps/autowater/): view data from USGS and NOAA gauge sites to get real-time river-level information.  
+1. [Marine Weather Plus](https://www.androidweather.net/download-marine-weather-plus.html) `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")`: marine forecasts, live buoy data, tides, radar, & sea surface temperatures
+1. [DarkSkyMeter](https://apps.apple.com/us/app/dark-sky-meter/id602989060) `r fa("apple", fill = "gray")` `r fa("dollar-sign", fill = "gray")`: Estimate the brightness of the night sky with phone camera
+
+### Timers, Measurement, Counting
+
+1. [Random Numbers]()  
+1. [Smart Measure](): rangefinder; measure the distance to and height of an object  
+1. [Theodolite](http://hrtapps.com/): overlays real time information about position, altitude, bearing, range, and inclination on the live camera image  
+1. [Multiconvert](): conversion of units. 100s of units (weight, distance, you name it).  
+1. [Tally Counters]() by Thomas Tsopanakis: a clean, simple, customizable counter  
+1. [Tally Counter Pro]() by Pixel Research Labs.    
+1. [Neukadye Timestamped Field Data]() (counters, timers, note for species time budget recording)  
+1. Distance Estimators: 
+    * Smart Measure
+    * Find my Distamnce
+    * Distance Meter
 
 ### Field Guides
 
+##### Multi-Taxa
+1. [iNaturalist](https://www.inaturalist.org/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
+1. [Map of Life](https://mol.org/mobile#/0/4) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+
 ##### Plants
+1. [Plant-o-Matic](https://apps.apple.com/us/app/plant-o-matic/id906932765)  `r fa("apple", fill="gray")`: The BIEN Plant-O-Matic generates a list of plant species at 100 sq. km resolution for any location in the Americas. Pictures and information help you identify and learn about each species. See the [paper about it](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12548) in _Methods in Ecology & Evolution_.
+1. [National Wildlife Federation](https://www.nwf.org/natureguides) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [vTree](https://dendro.cnre.vt.edu/dendrology/vtree.htm) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [Leafsnap](http://leafsnap.com/) `r fa("apple", fill="gray")` 
+<!-- 1. [Guide to Trees of U Florida Campus]() -->
+1. [The OSU Campus Tree and Plant App](https://chadwickarboretum.osu.edu/research-and-education/campus-tree-mapping-0)
+<!-- 1. [NY Flora Association Blog](): A list of field guides for iPhone/iPad has been put together by the NY Flora Association and can be found here. It includes guides to everything from plants to mushrooms. -->
 
-  * Plant-o-Matic: The BIEN Plant-O-Matic generates a list of plant species at 100 sq. km resolution for any location in the Americas. Pictures and information help you identify and learn about each species. [Editor's note 22 august 14: this sounds awesome, can't wait to try it].  
-  * Leafsnap  
-  * Guide to Trees of U Florida Campus  
-  * Guide to Trees of OSU Campus  
-  * NY Flora Association Blog: A list of field guides for iPhone/iPad has been put together by the NY Flora Association and can be found here. It includes guides to everything from plants to mushrooms.
 ##### Birds
-
-  * iBird  
-  * iTrack Wildlife  
-  * Larkwire: game-based system for learning bird songs (only North American species right now)  
-  * Audubon field guides  
-  * National Geographic Bird guide  
-  * Sibley eGuide to Birds  
-  * Map of Life  
-  * Cornell Lab of Ornithology Merlin Bird Guide  
-  * Cornell Lab of Ornithology Birdseye  
+1. [iBird](https://ibird.com/)`r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [Larkwire](https://www.larkwire.com/) `r fa("apple", fill="gray")`: game-based system for learning bird songs
+1. [Audubon Bird Guide](https://www.audubon.org/app) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+<!-- 1. [National Geographic Bird guide]() -->
+1. [Sibley eGuide to Birds v2](https://www.sibleyguides.com/product/sibley-birds-v2-app/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [Merlin](https://merlin.allaboutbirds.org/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1.  [National Wildlife Federation](https://www.nwf.org/natureguides) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
 
 ##### Fish  
+1. [Guides to Fish of the East Pacific](https://apps.apple.com/us/app/fishes-east-pacific/id494644648) by Ross Robertson `r fa("apple", fill="gray")`
+1. [Guides to Fish of the Caribbean](https://apps.apple.com/us/app/fishes-greater-caribbean/id570048678) by Ross Robertson `r fa("apple", fill="gray")`
+  
+##### Reptiles and Amphibians
+1. [National Wildlife Federation](https://www.nwf.org/natureguides) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
 
-  * Guides to Fish of the Caribbean and East Pacific by Ross Robertson  
+##### Insects & Spiders
+1. [National Wildlife Federation](https://www.nwf.org/natureguides) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [Kaeferkunde](http://kaeferkunde.de/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`: interactive guide to beetles in German
 
-##### Insects
+##### Fungi
+1. [Shroomify](https://foragers-friend.com/download-app.php) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [National Wildlife Federation](https://www.nwf.org/natureguides) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
 
-  * Kaeferkunde: interactive guide to beetles. In German, but English version is coming soon. More details here.  
+##### Mammals 
+1. [Guide to wildlife of UCSC Campus](https://play.google.com/store/apps/details?id=reserve.natural.wildlifeiducsc&hl=en_US&gl=US) `r fa("android", fill = "gray")`
+1. [National Wildlife Federation](https://www.nwf.org/natureguides) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
 
-###### Mammals
-  * Guide to wildlife of UCSC Campus  
+##### Animal Tracks
+1. [iTrack Wildlife](http://www.naturetracking.com/itrack-wildlife/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+
 
 ### Mapping, GIS, & GPS
 
-  * GPS Essentials  
-  * iGIS  
-  * MotionX GPS  
-  * ArcGIS  
-  * Google maps/Google Earth  
-  * gvSIG mini  
-  * GPS Status  
-  * OsmAnd: Offline Mobile Apps and Navigation   
-  * LocusPro (Android only  
-  * Nokia Maps: independent of a data signal (maps preload) and provides voice navigation,   * tilt and night views, 3D cities, and numerous gps-enhanced services as well as syncing   * with their full program on a PC  
-  * EveryTrail: record trip route, add photos and videos, share route, and download to google   * earth  
-  * PhenoMap: map plantphenology; upload images to a Flickr group.  
-  * WolfGIS  
-  * GISRoam  
-  * MapIt  
-  * Cartographica Mobile  
-  * QGIS for Android (Uunder development)  
-  * GPS Kit  
-  * UTM Convert. Convert degrees to UTM and vice versa.  
-  * MeasureMap: lets you draw polygons on a hybrid Google map, save the polygons, and export   * as KML, CSV, PNG, MMP (proprietary format), and PDF. (h/t EarthKnight who has a nice post   * describing apps used in his fieldwork)  
-  * OruxMaps: Especially useful for offline maps.  
+1. [GPS Essentials](https://play.google.com/store/apps/details?id=com.mictale.gpsessentials&hl=en_US&gl=US) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [iGIS](https://www.geometry.com.au/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+<!-- 1. [ArcGIS AppStudio](https://www.esri.com/en-us/arcgis/products/arcgis-appstudio/overview)   -->
+1. [Google Maps](https://support.google.com/maps/answer/6139433?hl=en#zippy=) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")` 
+1. [Google Earth](https://www.google.com/earth/versions/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [gvSIG mini]()  
+1. [GPS Status]()  
+1. [OsmAnd: Offline Mobile Apps and Navigation]()   
+1. [LocusPro]() (Android only  
+1. [Nokia Maps](): independent of a data signal (maps preload) and provides voice navigation, tilt and night views, 3D cities, and numerous gps-enhanced services as well as syncing with their full program on a PC  
+1. [EveryTrail](): record trip route, add photos and videos, share route, and download to google earth  
+1. [PhenoMap](): map plantphenology; upload images to a Flickr group.  
+1. [WolfGIS]()  
+1. [GISRoam]() 
+1. [MapIt]() 
+1. [Cartographica Mobile]()  
+1. [QGIS]() for Android (Uunder development)  
+1. [GPS Kit]()  
+1. [UTM Convert](). Convert degrees to UTM and vice versa.  
+1. [MeasureMap](): lets you draw polygons on a hybrid Google map, save the polygons, and export as KML, CSV, PNG, MMP (proprietary format), and PDF. (h/t EarthKnight who has a nice post describing apps used in his fieldwork)  
+1. [OruxMaps]():Especially useful for offline maps.  
  
-### Tools
-
-  * Random Numbers  
-  * Smart Measure: rangefinder; measure the distance to and height of an object  
-  * Theodolite: overlays real time information about position, altitude, bearing, range, and   * inclination on the live camera image  
-  * Multiconvert: conversion of units. 100s of units (weight, distance, you name it).  
-  * Tally Counters by Thomas Tsopanakis: a clean, simple, customizable counter  
-  * Tally Counter Pro by Pixel Research Labs.    
-  * Neukadye Timestamped Field Data (counters, timers, note for species time budget recording)  
-
 ### Participatory Science
 
-  * HerpMapper: a 501(c)(3) nonprofit gathering and share information about reptile and   * amphibian observations across the planet. Data are made available to partners groups that   * use observations for research and conservation.  
-  * Wildlife Witness: allows tourists & locals to easily report wildlife trade by taking a   * photo, pinning the exact location of an incident and sending these important details to   * the wildlife trade monitoring network TRAFFIC (NB: this is AWESOME)  
-  * Project Budburst: national field campaign designed to engage the public in the collection   * of data on timing of leafing, flowering, and fruiting of plants  
-  * Map of Life: a field guide whose range maps are refined by user input data  
-  * What’s Invasive!: submit geotagged photos and observations of invasive species
-  * IveGot1: Identify and report Invasive Species in Florida    
-  * Nature's Notebook Android App: from USA-NPN's. Record observations on hundreds of species   * of plants and animals, as well as add new locations and species to your list in the   * field.  
-  * iMapInvasives: online tool for invasive species reporting and data management.  
-  * the USDA National Agricultural Library has a webpage with smartphone applications for   * invasive species monitoring and identification: link  
-  * Loss of the Night: for estimating the brightness of the night sky as part of a project on   * light pollution  
-  * BirdLog: the official app for data entry into the Cornell Lab of Ornithology's bird   * project.  
-  * Secchi: the Secchi Disk project encourages participation in a global study of   * phytoplankton in the sea by creating and using their own secchi disk.  
-  * mPing: report on precipitation  
-  * Marine Debris Tracker: log trash on coastlines and waterways  
-  * NoiseTube: monitor noise pollution with your smartphone  
-  * CalFlora: report native plant occurrences in California and then visualize them on the   * CalFlora map.  
-  * Creekwatch: monitor the quality of your local watershed  
-  * CitSci.org: resources to develop your own Citizen Science Project, including app building   * (NB: looks *really* comprehensive and certainly has applications beyond CS, I think).  
-  * Urubu Mobile: Developed by Brazil's Federal University in Lavras' Center for The Study of   * Road Ecology (UFLA/CBEE) this cool app is used to register animal roadkill to study and   * mitigate the impacts of roads (read more here and here). Available for download for   * Android phones here.  PS "Urubu" is "vulture"in Portuguese...typical Brazilian sense of   * humor!  
-  * African Raptor Observations: accurately locate raptor sightings even while offline and   * send in from anywhere on the continent.  Perhaps under Data Entry and Recording   * Observations  
+##### Herps
+1. [HerpMapper](https://www.herpmapper.org/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`  
 
-### Reference Materials and Teaching
+##### Birds
+1. [African Raptor Observations](): accurately locate raptor sightings even while offline and send in from anywhere on the continent.  Perhaps under Data Entry and Recording Observations  
+* [BirdLog](https://ebird.org/caribbean/news/birdlog) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")` the official app for data entry into the Cornell Lab of Ornithology's bird project.  
 
-  * EMD Periodic Table of Elements  
-  * TASA Geotimescale: timeline of eons  
-  * Molecules: 3d models of molecules and enzymes  
-  * Skeptical Science  
-  * GeographCA  
-  * R Instructor: an interactive and multimedia tool designed to facilitate the learning process of R.  
+##### Plants  
+1. [Project Budburst](https://budburst.org/the-app) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`: national field campaign designed to engage the public in the collection of data on timing of leafing, flowering, and fruiting of plants  
+1. [CalFlora](https://www.calflora.org/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`: report native plant occurrences in California and then visualize them on the CalFlora map.
+  
+##### Invasive Species
+1. [What’s Invasive!](): submit geotagged photos and observations of invasive species
+1. [IveGot1](https://myfwc.com/wildlifehabitats/nonnatives/report/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: Identify and report Invasive Species in Florida    
+1. [iMapInvasives]([iMapInvasives](https://www.imapinvasives.org/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
 
-### Productivity, Workflow, & Data Storage
+##### Multi-Taxa
+1. [iNaturalist](https://www.inaturalist.org/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
+1. [Project Noah](https://www.projectnoah.org/)`r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
+1. [Nature's Notebook Android App](): from USA-NPN's. Record observations on hundreds of species of plants and animals, as well as add new locations and species to your list in the field.  
+monitoring and identification: link  
 
-  * Dropbox  
-  * Evernote  
-  * Wordpress app for blogs  
-  * Mendeley  
-  * Google Drive, Sheets, Docs (iOS, Android)  
-  * Quickoffice  
-  * IFTTT  
-  * Keynote for digital presentations  
+##### Environmemntal Conditions
+1. [Loss of the Night](http://lossofthenight.blogspot.com/2015/01/brief-introduction-to-loss-of-night-app.html) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: for estimating the brightness of the night sky as part of a project on light pollution
+1. [Secchi](http://www.secchidisk.org/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: the Secchi Disk project encourages participation in a global study of phytoplankton in the sea by creating and using their own secchi disk.
+1. [mPing](https://mping.nssl.noaa.gov/): report on precipitation
+1. [Marine Debris Tracker](https://debristracker.org/): log trash on coastlines and waterways
+1. [NoiseTube](http://www.noisetube.net/): monitor noise pollution with your smartphone
+<!-- 1. [Creekwatch](): monitor the quality of your local watershed   -->
+
+##### Roadkill
+1. [Urubu Mobile](https://sistemaurubu.com.br/)  `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: Developed by Brazil's Federal University in Lavras' Center for The Study of Road Ecology (UFLA/CBEE) this cool app is used to register animal roadkill to study and mitigate the impacts of roads (read more here and here). Available for download for Android phones here.  PS "Urubu" is "vulture"in Portuguese...typical Brazilian sense of humor!  
+
+##### Widlife Trafficking
+1. [Wildlife Witness](https://www.wildlifewitness.net/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: allows tourists & locals to easily report wildlife trade by taking a photo, pinning the exact location of an incident and sending these important details to the wildlife trade monitoring netw[ork TRAFFIC (NB: this is AWESOME)  
+
+### Workflow & Data Upload / Storage
+
+1. [Dropbox](https://www.dropbox.com/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
+1. [Evernote](https://evernote.com/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
+1. [Google Drive, Sheets, & Docs](https://www.google.com/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
+1. [IFTTT](https://ifttt.com/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
+<!-- 1. NB: [Google Forms](https://www.google.com/forms/about/) isn't listed because it isn't really suited to  -->
+<!-- ## Tools for programming your own app -->
+
+## Other Lists, Researchers
+
+1. Check Out Dr. Jere Boudell's [Mobile Computing in the Sciences](https://jabmobilecomp.mystrikingly.com/) Page, which includes information on App EcoHackathons at ESA and other meetings.
+1. [Green Apps & Web](https://www.greenappsandweb.com/): app creator with a number of different apps en Español.
 
 
+## Contributions & Corrections
+
+If you would like to recommend an app for the list or suggest an edit, please do so as a 'new issue' [here](https://github.com/BrunaLab/apps_for_fieldwork/issues) or as a [pull request](https://github.com/BrunaLab/apps_for_fieldwork/pulls).
 
 
-### Program your own App
+## References
 
-  * Check Out Dr. Jere Boudell's Mobile Computing in the Sciences Page, including the ESA EcoHackathon  
-  * Green Apps & Web: app creator with a number of different apps en Españ0l.  
+1. Boudell, J.A. and B.A. Middleton. 2019. Plot Locator: An app for locating plots in the field. Applications in Plant Sciences 7: e11311. https://doi.org/10.1002/aps3.11311 
 
-## Contribute to the List
+1. Teacher, A. G., D. J. Griffiths, D. J. Hodgson, & R. Inger. 2013. Smartphones in ecology and evolution: a guide for the app-rehensive. Ecology and Evolution, 3(16), 5268–5278. https://doi.org/10.1002/ece3.888 
 
-If you are a developer and would like to add your app to the list please send me an email with a link to the apps home page. H/T to Elena Malykhina for her article highlighting several citizen science apps that were new to us.
+1. Palumbo, M. J., S. A. Johnson, F. M. Mundim, A. C. Wolf, S. Arunachalam, O. Gonzalez, A. Lau, J. L. Ulrich, A. Washuta, E. M. Bruna. 2012. Harnessing smartphones for ecological education, research, and outreach. Bulletin of the Ecological Society of America 93(4):390-393  https://doi.org/10.1890/0012-9623-93.4.390 
+
