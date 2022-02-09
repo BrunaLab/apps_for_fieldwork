@@ -13,7 +13,7 @@ library(tidyverse)
 library(fontawesome)
 library(kableExtra)
 # devtools::install_github("hadley/emo")
-library(emo)
+library(emoji)
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
