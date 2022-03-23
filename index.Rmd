@@ -70,13 +70,13 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [Germinate Scan](https://ics.hutton.ac.uk/germinate-scan/) `r fa("android", fill = "gray")`: barcode scanning & data recording |
 1. Paid platforms for building forms and remote data collection; hard to imagine a project that would require these instead of one of the free options above: [Pendragon Forms](https://www.pendragonforms.com/), [Easy Data](https://www.easydata.nl/), [AmigoCloud](https://amigocloud.com/), [Open Data Kit](https://getodk.org/), [Fulcrum](https://www.fulcrumapp.com/)
 
-### Leaf Area, Canopy Cover, Herbivory
+### Leaf Area, Canopy Cover, Herbivory, & Plant Traits
 
-1. Canopy Cover, Gap Light Analysis, LAI
+1. Canopy Cover and LAI
       * [Canopeo](https://www.canopeoapp.com/#/login) `r fa("android", fill = "gray")`
       * [Canopy Capture](https://nikp29.github.io/CanopyCapture/) `r fa("android", fill = "gray")`
       * [Gap Light Aalysis](https://play.google.com/store/apps/details?id=new4.glama.glamanew4&hl=en_US&gl=US)  `r fa("android", fill = "gray")`
-      * [Pocket LAI](https://cassandratech.it/en/pocketlai-en/) `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")` _(highly discounted for education)_
+      * [Pocket LAI](https://cassandratech.it/en/pocketlai-en/) (see also [this link](http://www.cassandralab.com/mobiles/1)) `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")` _(highly discounted for education)_
 1. Leaf Area
       * [Easy Leaf Area](https://play.google.com/store/apps/details?id=com.heaslon.EasyLeafArea&hl=en_US&gl=US) `r fa("android", fill = "gray")`
       * [LeafScan](http://www.leafscanapp.com/) `r fa("android", fill = "gray")`
@@ -84,8 +84,11 @@ This list began as part of the group project for the 2011 edition of my graduate
       * [Leaf-IT](https://play.google.com/store/apps/details?id=de.yahoo.gisopillar.leafit&hl=en_US&gl=US) `r fa("android", fill = "gray")`
 1. Herbivory
       * [LeafByte](https://zoegp.science/leafbyte) `r fa("apple", fill = "gray")`
-
-### Info on Local Environment
+1. Leaf Nitrogen
+    * [PocketN](http://www.cassandralab.com/mobiles/3): estimation of nitrogen content in plant tissues.
+1. DBH (with LiDAR) and [3D Scanner App](https://3dscannerapp.com/) `r fa("apple", fill = "gray")`. See [this example](https://sketchfab.com/3d-models/ipad-pro-lidar-forest-plot-scanning-fd6fed3a19d14f50ba4801b6c1a6ed60) and [paper by Martin Mokroš et al.](https://www.sciencedirect.com/science/article/pii/S0303243421002191)
+    
+### Information on Local Environments
 
 1. [SoilWeb](https://casoilresource.lawr.ucdavis.edu/gmap/): portable version of online interface to USDA-NRCS digital soil survey   
 1. Solar/Lunar Position, Timing, Duration, & Tracking
@@ -97,19 +100,23 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [Marine Weather Plus](https://www.androidweather.net/download-marine-weather-plus.html) `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")`: marine forecasts, live buoy data, tides, radar, & sea surface temperatures
 1. [DarkSkyMeter](https://apps.apple.com/us/app/dark-sky-meter/id602989060) `r fa("apple", fill = "gray")` `r fa("dollar-sign", fill = "gray")`: Estimate the brightness of the night sky with phone camera
 
-### Timers, Measurement, Counting
+### Timers, Measurement, Counting, Sampling
 
-1. [Random Numbers]()  
-1. [Smart Measure](): rangefinder; measure the distance to and height of an object  
-1. [Theodolite](http://hrtapps.com/): overlays real time information about position, altitude, bearing, range, and inclination on the live camera image  
-1. [Multiconvert](): conversion of units. 100s of units (weight, distance, you name it).  
-1. [Tally Counters]() by Thomas Tsopanakis: a clean, simple, customizable counter  
-1. [Tally Counter Pro]() by Pixel Research Labs.    
-1. [Neukadye Timestamped Field Data]() (counters, timers, note for species time budget recording)  
-1. Distance Estimators: 
-    * Smart Measure
-    * Find my Distamnce
-    * Distance Meter
+1. [PocketVJ](http://www.cassandralab.com/mobiles/2): optimal sample size determination
+1. Random Number Generators (many more options)
+    * [Randomize](https://play.google.com/store/apps/details?id=com.giannis.randomizer&hl=en_US&gl=US) `r fa("android", fill = "gray")`
+    * [RNG Plus](https://play.google.com/store/apps/details?id=com.randomappsinc.randomnumbergeneratorplus&hl=en_US&gl=US) `r fa("android", fill = "gray")`
+    * [Number Generator](https://apps.apple.com/us/app/random-all-things-generator/id1128190780) `r fa("apple", fill = "gray")`
+    * [Random](https://apps.apple.com/us/app/pretty-random-rng/id1126199480) `r fa("apple", fill = "gray")`
+1. Rangefinders & Tape measures (many options)
+    * [Smart Measure](https://play.google.com/store/apps/details?id=kr.sira.measure)`r fa("android", fill = "gray")`
+    * [Moasure - smart tape measure](https://apps.apple.com/us/app/moasure-smart-tape-measure/id1119132775) `r fa("apple", fill = "gray")`
+1. [Theodolite](http://hrtapps.com/): overlays real time information about position, altitude, bearing, range, and inclination on the live camera image `r fa("apple", fill = "gray")` 
+1. [Converter+](https://apps.apple.com/us/app/converter-units-currencies/id370146222): conversion of units. 100s of units (weight, distance, you name it). `r fa("apple", fill = "gray")` 
+1. [Tally Counters](https://thomastsopanakis.com/tally-counters/) by Thomas Tsopanakis: a clean, simple, customizable counter `r fa("apple", fill = "gray")` 
+[Tall Counter](https://play.google.com/store/apps/details?id=de.cliff.strichliste&hl=en_US&gl=US) `r fa("android", fill = "gray")`
+1. [Tally Counter Pro](http://pixelresearchlabs.com/tallycounter) by Pixel Research Labs. `r fa("apple", fill = "gray")`     
+1. [Neukadye Timestamped Field Data](https://www.neukadye.com/mobile-applications/timestamped-field-notes/) (counters, timers, note for species time budget recording)  `r fa("apple", fill = "gray")` `r fa("android", fill = "gray")`
 
 ### Field Guides
 
@@ -165,22 +172,23 @@ This list began as part of the group project for the 2011 edition of my graduate
 <!-- 1. [ArcGIS AppStudio](https://www.esri.com/en-us/arcgis/products/arcgis-appstudio/overview)   -->
 1. [Google Maps](https://support.google.com/maps/answer/6139433?hl=en#zippy=) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")` 
 1. [Google Earth](https://www.google.com/earth/versions/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
-1. [gvSIG mini]()  
-1. [GPS Status]()  
-1. [OsmAnd: Offline Mobile Apps and Navigation]()   
-1. [LocusPro]() (Android only  
-1. [Nokia Maps](): independent of a data signal (maps preload) and provides voice navigation, tilt and night views, 3D cities, and numerous gps-enhanced services as well as syncing with their full program on a PC  
-1. [EveryTrail](): record trip route, add photos and videos, share route, and download to google earth  
-1. [PhenoMap](): map plantphenology; upload images to a Flickr group.  
-1. [WolfGIS]()  
-1. [GISRoam]() 
-1. [MapIt]() 
-1. [Cartographica Mobile]()  
-1. [QGIS]() for Android (Uunder development)  
-1. [GPS Kit]()  
-1. [UTM Convert](). Convert degrees to UTM and vice versa.  
-1. [MeasureMap](): lets you draw polygons on a hybrid Google map, save the polygons, and export as KML, CSV, PNG, MMP (proprietary format), and PDF. (h/t EarthKnight who has a nice post describing apps used in his fieldwork)  
-1. [OruxMaps]():Especially useful for offline maps.  
+<!-- 1. [gvSIG mini]()   -->
+1. [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2&hl=en_US&gl=US) `r fa("android", fill = "gray")`
+1. [OsmAnd: Offline Mobile Apps and Navigation](https://osmand.net/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [LocusPro](https://www.locusmap.app/?gclid=Cj0KCQiA3-yQBhD3ARIsAHuHT665byc1nhe4Eb6_H1ack2JvkW-5DQKVTacj_CDgIO-QfUOePPYRmnYaAoaNEALw_wcB) `r fa("android", fill = "gray")`
+1. [HERE WeGo](https://wego.here.com/?x=ep&map=29.6825,-82.3606,10,normal) `r fa("android", fill = "gray")` `r fa("apple", fill="gray")` independent of a data signal (maps preload) and provides voice navigation, tilt and night views, 3D cities, and numerous gps-enhanced services
+1. [AllTrails](https://www.alltrails.com/): record trip route, add photos and videos, share route, and download to google earth `r fa("android", fill = "gray")` `r fa("apple", fill="gray")`
+<!-- 1. [PhenoMap](): map plantphenology; upload images to a Flickr group.   -->
+1. [WolfGIS](https://download.cnet.com/Wolf-GIS-APEX/3000-12940_4-75457099.html) `r fa("apple", fill="gray")`
+<!-- 1. [GISRoam]()  -->
+1. [MapIt GIS](https://mapitgis.com/) `r fa("android", fill = "gray")`
+1. [Cartographica Mobile](https://www.macgis.com/mobile) `r fa("android", fill = "gray")` `r fa("apple", fill="gray")`
+1. [QGIS](https://www.qgis.org/en/site/) `r fa("android", fill = "gray")`
+1. [GPS Kit](https://apps.apple.com/us/app/gps-kit-offline-gps-tracker/id287909017) `r fa("android", fill = "gray")` 
+1. [UTM RD GPS coords converter](https://apps.apple.com/us/app/utm-rd-gps-coords-converter/id1440292872). Convert degrees to UTM and _vice versa_.  `r fa("android", fill = "gray")`
+1. [MeasureMap](https://apps.apple.com/us/app/measure-map/id1247360674): lets you draw polygons on a hybrid Google map, save the polygons, and export as KML, CSV, PNG, MMP (proprietary format), and PDF. 
+<!-- (h/t EarthKnight who has a nice post describing apps used in his fieldwork)   -->
+1. [OruxMaps](https://www.oruxmaps.com/cs/en/):Especially useful for offline maps. `r fa("android", fill = "gray")`  
  
 ### Participatory Science
 
@@ -188,7 +196,7 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [HerpMapper](https://www.herpmapper.org/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`  
 
 ##### Birds
-1. [African Raptor Observations](): accurately locate raptor sightings even while offline and send in from anywhere on the continent.  Perhaps under Data Entry and Recording Observations  
+1. [African Raptor Observations](https://www.androidblip.com/android-apps/com.fluidfacades.habitatinfo.rapterobs.html): accurately locate raptor sightings even while offline and send in from anywhere on the continent.  Perhaps under Data Entry and Recording Observations  
 * [BirdLog](https://ebird.org/caribbean/news/birdlog) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")` the official app for data entry into the Cornell Lab of Ornithology's bird project.  
 
 ##### Plants  
@@ -196,15 +204,14 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [CalFlora](https://www.calflora.org/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`: report native plant occurrences in California and then visualize them on the CalFlora map.
   
 ##### Invasive Species
-1. [What’s Invasive!](): submit geotagged photos and observations of invasive species
+1. [What’s Invasive!](https://www.eddmaps.org/): submit geotagged photos and observations of invasive species
 1. [IveGot1](https://myfwc.com/wildlifehabitats/nonnatives/report/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: Identify and report Invasive Species in Florida    
 1. [iMapInvasives]([iMapInvasives](https://www.imapinvasives.org/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
 
 ##### Multi-Taxa
 1. [iNaturalist](https://www.inaturalist.org/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
 1. [Project Noah](https://www.projectnoah.org/)`r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
-1. [Nature's Notebook Android App](): from USA-NPN's. Record observations on hundreds of species of plants and animals, as well as add new locations and species to your list in the field.  
-monitoring and identification: link  
+1. [Nature's Notebook Android App](https://play.google.com/store/apps/details?id=org.usanpn.naturesnotebookmobile&hl=en_US&gl=US): from USA-NPN's. Record observations on hundreds of species of plants and animals, as well as add new locations and species to your list in the field.  `r fa("android", fill = "gray")`
 
 ##### Environmemntal Conditions
 1. [Loss of the Night](http://lossofthenight.blogspot.com/2015/01/brief-introduction-to-loss-of-night-app.html) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: for estimating the brightness of the night sky as part of a project on light pollution
