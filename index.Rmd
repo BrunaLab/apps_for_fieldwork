@@ -57,6 +57,7 @@ This list began as part of the group project for the 2011 edition of my graduate
 
 ### Recording Data, Creating Forms
 
+1. PlotLocator  [paper by Boudell & Middleton](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.1002/aps3.11311) [github repo](https://github.com/jboudell/PlotLocator)    `r fa("android", fill = "gray")`
 1. [EpiCollect](https://five.epicollect.net/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
 1. [KoBoToolbox](https://www.kobotoolbox.org/)  `r fa("android", fill = "gray")`
 1. [iFormBuilder](https://www.zerionsoftware.com/iformbuilder)  `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
@@ -70,13 +71,19 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [Germinate Scan](https://ics.hutton.ac.uk/germinate-scan/) `r fa("android", fill = "gray")`: barcode scanning & data recording |
 1. Paid platforms for building forms and remote data collection; hard to imagine a project that would require these instead of one of the free options above: [Pendragon Forms](https://www.pendragonforms.com/), [Easy Data](https://www.easydata.nl/), [AmigoCloud](https://amigocloud.com/), [Open Data Kit](https://getodk.org/), [Fulcrum](https://www.fulcrumapp.com/)
 
-### Leaf Area, Canopy Cover, Herbivory, & Plant Traits
+
+### Canopy Cover and Forest Structure 
 
 1. Canopy Cover and LAI
       * [Canopeo](https://www.canopeoapp.com/#/login) `r fa("android", fill = "gray")`
       * [Canopy Capture](https://nikp29.github.io/CanopyCapture/) `r fa("android", fill = "gray")`
       * [Gap Light Aalysis](https://play.google.com/store/apps/details?id=new4.glama.glamanew4&hl=en_US&gl=US)  `r fa("android", fill = "gray")`
       * [Pocket LAI](https://cassandratech.it/en/pocketlai-en/) (see also [this link](http://www.cassandralab.com/mobiles/1)) `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")` _(highly discounted for education)_
+
+1. DBH (with LiDAR) and [3D Scanner App](https://3dscannerapp.com/) `r fa("apple", fill = "gray")`. See [this example](https://sketchfab.com/3d-models/ipad-pro-lidar-forest-plot-scanning-fd6fed3a19d14f50ba4801b6c1a6ed60) and [paper by Martin Mokroš et al.](https://www.sciencedirect.com/science/article/pii/S0303243421002191)
+
+### Plant Traits & Plant-Animal Interactions
+
 1. Leaf Area
       * [Easy Leaf Area](https://play.google.com/store/apps/details?id=com.heaslon.EasyLeafArea&hl=en_US&gl=US) `r fa("android", fill = "gray")`
       * [LeafScan](http://www.leafscanapp.com/) `r fa("android", fill = "gray")`
@@ -86,7 +93,6 @@ This list began as part of the group project for the 2011 edition of my graduate
       * [LeafByte](https://zoegp.science/leafbyte) `r fa("apple", fill = "gray")`
 1. Leaf Nitrogen
     * [PocketN](http://www.cassandralab.com/mobiles/3): estimation of nitrogen content in plant tissues.
-1. DBH (with LiDAR) and [3D Scanner App](https://3dscannerapp.com/) `r fa("apple", fill = "gray")`. See [this example](https://sketchfab.com/3d-models/ipad-pro-lidar-forest-plot-scanning-fd6fed3a19d14f50ba4801b6c1a6ed60) and [paper by Martin Mokroš et al.](https://www.sciencedirect.com/science/article/pii/S0303243421002191)
     
 ### Information on Local Environments
 
@@ -238,8 +244,12 @@ This list began as part of the group project for the 2011 edition of my graduate
 
 ## Other Lists, Researchers
 
-1. Check Out Dr. Jere Boudell's [Mobile Computing in the Sciences](https://jabmobilecomp.mystrikingly.com/) Page, which includes information on App EcoHackathons at ESA and other meetings.
+1. Check Out Dr. Jere Boudell's [Mobile Computing in the Sciences](https://jabmobilecomp.mystrikingly.com/) Page, which includes information on App EcoHackathons at ESA and other meetings as well as [some apps in development](https://jabmobilecomp.mystrikingly.com/).
 1. [Green Apps & Web](https://www.greenappsandweb.com/): app creator with a number of different apps en Español.
+
+## Build your own
+
+1. [MIT App Inventor](http://ai2.appinventor.mit.edu/)
 
 
 ## Contributions & Corrections
