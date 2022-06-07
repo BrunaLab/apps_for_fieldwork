@@ -1,5 +1,5 @@
 ---
-title: 'Smartphone Apps for Fieldwork'
+title: ' '
 author: "The Bruna Lab - University of Florida"
 date: "updated: `r Sys.Date()`"
 header-includes:
@@ -35,9 +35,17 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 <!-- Webpage tutorial: http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html  -->
 
 
+![ ](./brunaLOGO.png)
 
-# TEST
-This list began as part of the group project for the 2011 edition of my graduate course in Plant-Animal Interactions. As part of the class, my students developed a guide to the native tree species of the University of Florida campus, with information on the their dispersers, pollinators, and herbivores. The students also wrote a [paper in the _Bulletin of the Ecological Society of America_](https://www.jstor.org/stable/bullecosociamer.93.4.390) describing the process and laying out some of the ways smartphones can be used in ecological research, teaching, and extension).
+# Smartphone Apps for Field Research 
+
+### Compiled by the [Bruna Lab](https://tropicos.netlify.app/) - University of Florida
+
+### Last Update: `r Sys.Date()`
+
+## Introduction
+
+This list began as part of the group project for the 2011 edition of my graduate course in Plant-Animal Interactions. As part of the class, my students developed a guide to the native tree species of the University of Florida campus, with information on the their dispersers, pollinators, and herbivores. The students also wrote a [paper in the _Bulletin of the Ecological Society of America_](https://www.jstor.org/stable/bullecosociamer.93.4.390) describing the process and laying out some of the ways smartphones can be used in ecological research, teaching, and extension.
 
 ## Essential Accessories 
 
