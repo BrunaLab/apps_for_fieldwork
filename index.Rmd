@@ -21,6 +21,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 library(tidyverse)
+library(rmdformats)
 library(fontawesome)
 library(kableExtra)
 # devtools::install_github("hadley/emo")
@@ -33,6 +34,9 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 <!-- <link rel="stylesheet" href="academicons.min.css"/> -->
 <!-- Webpage tutorial: http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html  -->
 
+
+
+# TEST
 This list began as part of the group project for the 2011 edition of my graduate course in Plant-Animal Interactions. As part of the class, my students developed a guide to the native tree species of the University of Florida campus, with information on the their dispersers, pollinators, and herbivores. The students also wrote a [paper in the _Bulletin of the Ecological Society of America_](https://www.jstor.org/stable/bullecosociamer.93.4.390) describing the process and laying out some of the ways smartphones can be used in ecological research, teaching, and extension).
 
 ## Essential Accessories 
