@@ -219,6 +219,9 @@ This list began as part of the group project for the 2011 edition of my graduate
 <!-- (h/t EarthKnight who has a nice post describing apps used in his fieldwork)   -->
 1. [OruxMaps](https://www.oruxmaps.com/cs/en/): Especially useful for offline maps. `r fa("android", fill = "gray")`  
 1. [Avenza](https://www.avenzamaps.com/): works with Georefernced maps constructed with your favorite GIS software and has maps available for purchase, including from USFS and BLM. Free version allows three custom maps; unlimited maps on paid version. `r fa("android", fill = "gray")` `r fa("apple", fill="gray")`
+1. [QField](https://qfield.org/) QGIS's field app for recording and entering GIS data in the field on mobile. `r fa("android", fill = "gray")` `r fa("apple", fill="gray")`
+
+It should probably be included in the Recording Data, Creating Forms section?
  
 ### Participatory Science
 
