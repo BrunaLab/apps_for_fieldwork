@@ -90,7 +90,7 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [PhenomApp](https://knowledge-base.phenome-networks.com/kb/en/article/phenomapp) `r fa("android", fill = "gray")`: record observations and selections on plants and plots in the field 
 1. [Sightings](https://apps.apple.com/au/app/sightings/id539447284) `r fa("apple", fill="gray")`
 1. [Neukadye](https://www.neukadye.com/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`:  Time-stamped and geo-located field Notes
-1. [CitSci.org](CitSci.org) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`: designed for developing Citizen Science projects/data collection apps but looks to have utility far beyond that.
+1. [CitSci.org](https://citsci.org/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`: designed for developing Citizen Science projects/data collection apps but looks to have utility far beyond that.
 1. [Germinate Scan](https://ics.hutton.ac.uk/germinate-scan/) `r fa("android", fill = "gray")`: barcode scanning & data recording |
 1. Paid platforms for building forms and remote data collection; hard to imagine a project that would require these instead of one of the free options above: [Pendragon Forms](https://www.pendragonforms.com/), [Easy Data](https://www.easydata.nl/), [AmigoCloud](https://amigocloud.com/), [Open Data Kit](https://getodk.org/), [Fulcrum](https://www.fulcrumapp.com/)
 
@@ -111,7 +111,7 @@ This list began as part of the group project for the 2011 edition of my graduate
       * [Easy Leaf Area](https://play.google.com/store/apps/details?id=com.heaslon.EasyLeafArea&hl=en_US&gl=US) `r fa("android", fill = "gray")`
       * [LeafScan](http://www.leafscanapp.com/) `r fa("android", fill = "gray")`
       * [Petiole](https://petioleapp.com/leaf-area-measurement-petiole/) `r fa("android", fill = "gray")`
-      * [Leaf-IT](https://play.google.com/store/apps/details?id=de.yahoo.gisopillar.leafit&hl=en_US&gl=US) `r fa("android", fill = "gray")`
+      * [Leaf-IT](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.3485) `r fa("android", fill = "gray")`
 1. Herbivory
       * [LeafByte](https://zoegp.science/leafbyte) `r fa("apple", fill = "gray")`
 1. Leaf Nitrogen
@@ -124,7 +124,7 @@ This list began as part of the group project for the 2011 edition of my graduate
     * [Sun position and path](https://apps.apple.com/us/app/sun-position-and-path/id1502500167) `r fa("apple", fill = "gray")`
     * [LightTrac](https://apps.apple.com/us/app/lighttrac/id392892355) `r fa("apple", fill = "gray")` `r fa("dollar-sign", fill = "gray")`
     * [Sun Surveyor Lite](https://apps.apple.com/us/app/sun-surveyor-lite/id552754407) `r fa("apple", fill = "gray")`
-1. [RiverFlows](https://play.google.com/store/apps/details?id=com.riverflows&hl=en_US&gl=US) `r fa("apple", fill = "gray")`
+1. RiverApp for [iOS](https://apps.apple.com/us/app/riverapp-river-levels/id667012473) `r fa("apple", fill = "gray")` and [Android](https://play.google.com/store/apps/details?id=de.android.riverapp&hl=en_US) `r fa("android", fill = "gray")`: water levels and river flows for rivers in the USA and 20 other countries around the world.
 1. [WaterTracker](https://data.pointblue.org/apps/autowater/): view data from USGS and NOAA gauge sites to get real-time river-level information.  
 1. [Marine Weather Plus](https://www.androidweather.net/download-marine-weather-plus.html) `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")`: marine forecasts, live buoy data, tides, radar, & sea surface temperatures
 1. [DarkSkyMeter](https://apps.apple.com/us/app/dark-sky-meter/id602989060) `r fa("apple", fill = "gray")` `r fa("dollar-sign", fill = "gray")`: Estimate the brightness of the night sky with phone camera
@@ -139,7 +139,7 @@ This list began as part of the group project for the 2011 edition of my graduate
     * [Random](https://apps.apple.com/us/app/pretty-random-rng/id1126199480) `r fa("apple", fill = "gray")`
 1. Rangefinders & Tape measures (many options)
     * [Smart Measure](https://play.google.com/store/apps/details?id=kr.sira.measure)`r fa("android", fill = "gray")`
-    * [Moasure - smart tape measure](https://apps.apple.com/us/app/moasure-smart-tape-measure/id1119132775) `r fa("apple", fill = "gray")`
+    * [Moasure](https://www.moasure.com/): Extremely high precision landscape measurements ("Simultaneously measure and draw complex and irregular job sites....Capturing x, y, and z data as it moves from one point to another, Moasure automatically calculates perimeter, area, elevation, volume, and more.") `r fa("dollar-sign", fill = "gray")`
 1. [Theodolite](http://hrtapps.com/): overlays real time information about position, altitude, bearing, range, and inclination on the live camera image `r fa("apple", fill = "gray")` 
 1. [Converter+](https://apps.apple.com/us/app/converter-units-currencies/id370146222): conversion of units. 100s of units (weight, distance, you name it). `r fa("apple", fill = "gray")` 
 1. [Tally Counters](https://thomastsopanakis.com/tally-counters/) by Thomas Tsopanakis: a clean, simple, customizable counter `r fa("apple", fill = "gray")` 
@@ -154,8 +154,8 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [Map of Life](https://mol.org/mobile#/0/4) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
 
 ##### Plants
-1. [Plant-o-Matic](https://apps.apple.com/us/app/plant-o-matic/id906932765)  `r fa("apple", fill="gray")`: The BIEN Plant-O-Matic generates a list of plant species at 100 sq. km resolution for any location in the Americas. Pictures and information help you identify and learn about each species. See the [paper about it](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12548) in _Methods in Ecology & Evolution_.
-1. [National Wildlife Federation](https://www.nwf.org/natureguides) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [Plant-o-Matic](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12548)  `r fa("apple", fill="gray")`: The BIEN Plant-O-Matic generates a list of plant species at 100 sq. km resolution for any location in the Americas. Pictures and information help you identify and learn about each species. See the [paper about it](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12548) in _Methods in Ecology & Evolution_.
+1. [National Wildlife Federation](https://www.nwf.org/Garden-for-Wildlife/About/Resources/guides) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
 1. [vTree](https://dendro.cnre.vt.edu/dendrology/vtree.htm) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
 1. [Leafsnap](http://leafsnap.com/) `r fa("apple", fill="gray")` 
 <!-- 1. [Guide to Trees of U Florida Campus]() -->
@@ -253,7 +253,10 @@ This list began as part of the group project for the 2011 edition of my graduate
 <!-- 1. [Creekwatch](): monitor the quality of your local watershed   -->
 
 ##### Roadkill
-1. [Urubu Mobile](https://sistemaurubu.com.br/)  `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: Developed by Brazil's Federal University in Lavras' Center for The Study of Road Ecology (UFLA/CBEE) this cool app is used to register animal roadkill to study and mitigate the impacts of roads (read more here and here). Available for download for Android phones here.  PS "Urubu" is "vulture"in Portuguese...typical Brazilian sense of humor!  
+
+1. [Roadkill App](https://roadkillapp.com/)
+1. [Utah Roadkill Reporter](https://roadkill-reporter.utah.gov/)
+~~1. [Urubu Mobile](https://sistemaurubu.com.br/)  `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: Developed by Brazil's Federal University in Lavras' Center for The Study of Road Ecology (UFLA/CBEE) this cool app is used to register animal roadkill to study and mitigate the impacts of roads (read more here and here). Available for download for Android phones here.  PS "Urubu" is "vulture"in Portuguese...typical Brazilian sense of humor!~~
 
 ##### Widlife Trafficking
 1. [Wildlife Witness](https://www.wildlifewitness.net/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: allows tourists & locals to easily report wildlife trade by taking a photo, pinning the exact location of an incident and sending these important details to the wildlife trade monitoring netw[ork TRAFFIC (NB: this is AWESOME)  
@@ -269,8 +272,8 @@ This list began as part of the group project for the 2011 edition of my graduate
 
 ## Other Lists, Researchers
 
-1. Check Out Dr. Jere Boudell's [Mobile Computing in the Sciences](https://jabmobilecomp.mystrikingly.com/) Page, which includes information on App EcoHackathons at ESA and other meetings as well as [some apps in development](https://jabmobilecomp.mystrikingly.com/).
-1. [Green Apps & Web](https://www.greenappsandweb.com/): app creator with a number of different apps en Español.
+1. Dr. Jere Boudell's [Mobile Computing in the Sciences](https://jabmobilecomp.mystrikingly.com/) page includes information on App EcoHackathons at ESA and other meetings as well as [some apps in development](https://jabmobilecomp.mystrikingly.com/).
+
 
 ## Build your own
 
