@@ -1,5 +1,5 @@
 ---
-title: ' '
+title: 'Smartphone Apps for Field Research'
 author: "The Bruna Lab - University of Florida"
 date: "updated: `r Sys.Date()`"
 header-includes:
@@ -35,13 +35,14 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 <!-- Webpage tutorial: http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html  -->
 
 
-![ ](./brunaLOGO.png)
 
-# Smartphone Apps for Field Research 
 
-### Compiled by the [Bruna Lab](https://tropicos.netlify.app/) - University of Florida
+```{r pressure, echo=FALSE, fig.cap="**Compiled by the [Bruna Lab](https://tropicos.netlify.app/), University of Florida**", out.width = '70%'}
+knitr::include_graphics("brunaLOGO.png")
+```
+<p style="text-align: center;"><b>Last Update: `r Sys.Date()`</b></p>
 
-### Last Update: `r Sys.Date()`
+#### 
 
 ## Introduction
 
@@ -255,7 +256,7 @@ This list began as part of the group project for the 2011 edition of my graduate
 ##### Roadkill
 
 1. [Roadkill App](https://roadkillapp.com/)
-1. [Utah Roadkill Reporter](https://roadkill-reporter.utah.gov/)
+1. [Utah Roadkill Reporter](https://roadkill-reporter.utah.gov/). 
 ~~1. [Urubu Mobile](https://sistemaurubu.com.br/)  `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: Developed by Brazil's Federal University in Lavras' Center for The Study of Road Ecology (UFLA/CBEE) this cool app is used to register animal roadkill to study and mitigate the impacts of roads (read more here and here). Available for download for Android phones here.  PS "Urubu" is "vulture"in Portuguese...typical Brazilian sense of humor!~~
 
 ##### Widlife Trafficking
