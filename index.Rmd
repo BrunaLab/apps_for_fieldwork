@@ -38,7 +38,7 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 
 
 ```{r pressure, echo=FALSE, fig.cap="**Compiled by the [Bruna Lab](https://tropicos.netlify.app/), University of Florida**", out.width = '70%'}
-knitr::include_graphics("./brunaLOGO.png")
+knitr::include_graphics("brunaLOGO.png")
 ```
 <p style="text-align: center;"><b>Last Update: `r Sys.Date()`</b></p>
 
