@@ -1,0 +1,24 @@
+name: "Smartphone Apps for Field Biology"
+navbar:
+  title: "Smartphone Apps for Field Biology"
+  left:
+    - icon: fa-home fa-lg
+      href: http://www.BrunaLab.org
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<embruna@ufl.edu>
+    - icon: ai-google-scholar ai-lg
+      href: https://scholar.google.com/citations?user=mgXvbcYAAAAJ&hl=en
+    - icon: ai-cv ai-lg
+      href: https://github.com/BrunaLab/EmilioMBruna_CV/blob/main/EmilioMBruna_CV.pdf
+    - icon: fab fa-github fa-lg
+      href: http://github.com/BrunaLab
+    - icon: fab fa-twitter fa-lg
+      href: https://twitter.com/BrunaLab
+    
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
+    output_dir: "."
+

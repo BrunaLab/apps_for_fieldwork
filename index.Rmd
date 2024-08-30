@@ -1,15 +1,27 @@
 ---
-title: "Introduction"
-output: 
-    html_document:
-        toc: TRUE
-        toc_float: TRUE
+title: ' '
+author: "The Bruna Lab - University of Florida"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  # pdf_document: 
+  # html_document: 
+  #   df_print: paged
+  rmdformats::robobook: default
 ---
 
 ```{r setup, include=FALSE,echo=FALSE,message = FALSE,warning=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 library(tidyverse)
+library(rmdformats)
 library(fontawesome)
 library(kableExtra)
 # devtools::install_github("hadley/emo")
@@ -22,7 +34,18 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 <!-- <link rel="stylesheet" href="academicons.min.css"/> -->
 <!-- Webpage tutorial: http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html  -->
 
-This list began as part of the group project for the 2011 edition of my graduate course in Plant-Animal Interactions. As part of the class, my students developed a guide to the native tree species of the University of Florida campus, with information on the their dispersers, pollinators, and herbivores. The students also wrote a [paper in the _Bulletin of the Ecological Society of America_](https://www.jstor.org/stable/bullecosociamer.93.4.390) describing the process and laying out some of the ways smartphones can be used in ecological research, teaching, and extension).
+
+![ ](./brunaLOGO.png)
+
+# Smartphone Apps for Field Research 
+
+### Compiled by the [Bruna Lab](https://tropicos.netlify.app/) - University of Florida
+
+### Last Update: `r Sys.Date()`
+
+## Introduction
+
+This list began as part of the group project for the 2011 edition of my graduate course in Plant-Animal Interactions. As part of the class, my students developed a guide to the native tree species of the University of Florida campus, with information on the their dispersers, pollinators, and herbivores. The students also wrote a [paper in the _Bulletin of the Ecological Society of America_](https://www.jstor.org/stable/bullecosociamer.93.4.390) describing the process and laying out some of the ways smartphones can be used in ecological research, teaching, and extension.
 
 ## Essential Accessories 
 
@@ -194,8 +217,10 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [UTM RD GPS coords converter](https://apps.apple.com/us/app/utm-rd-gps-coords-converter/id1440292872). Convert degrees to UTM and _vice versa_.  `r fa("android", fill = "gray")`
 1. [MeasureMap](https://apps.apple.com/us/app/measure-map/id1247360674): lets you draw polygons on a hybrid Google map, save the polygons, and export as KML, CSV, PNG, MMP (proprietary format), and PDF. 
 <!-- (h/t EarthKnight who has a nice post describing apps used in his fieldwork)   -->
-1. [OruxMaps](https://www.oruxmaps.com/cs/en/):Especially useful for offline maps. `r fa("android", fill = "gray")`  
- 
+1. [OruxMaps](https://www.oruxmaps.com/cs/en/): Especially useful for offline maps. `r fa("android", fill = "gray")`  
+1. [Avenza](https://www.avenzamaps.com/): works with Georefernced maps constructed with your favorite GIS software and has maps available for purchase, including from USFS and BLM. Free version allows three custom maps; unlimited maps on paid version. `r fa("android", fill = "gray")` `r fa("apple", fill="gray")`
+1. [QField](https://qfield.org/) QGIS's field app for recording and entering GIS data in the field on mobile. `r fa("android", fill = "gray")` `r fa("apple", fill="gray")`
+
 ### Participatory Science
 
 ##### Herps

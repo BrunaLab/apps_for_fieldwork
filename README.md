@@ -1,2 +1,3 @@
-# apps for field biology
-Compendium of smartphone applications for field biology
+# Apps for Field Research 
+
+Welcome! Follow this link to the [webpage of smartphone applications for field research](https://brunalab.github.io/apps_for_fieldwork/). The page also has all the information on how to suggest additions or corerections.
