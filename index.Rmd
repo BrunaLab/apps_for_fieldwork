@@ -81,6 +81,7 @@ This list began as part of the group project for the 2011 edition of my graduate
 
 ### Recording Data, Creating Forms
 
+1. [ColectoR](https://camayal.info/colector.htm): _"ColectoR is a free assistant for botanist field trips, to help to manage big amounts of data from each specimen collected using any Android smart phone based. ColectoR contain the fields most used by botanist in the label for their collections. ColectoR use sensors in each smart phone like GPS, altimeter and camera, allowing integrate this information with each registry."_ See also: Maya-Lastra, C.A. 2016. ColectoR, a Digital Field Notebook for Voucher Specimen Collection for Smartphones. Applications in Plant Sciences, 4(7):1600035. [https://doi.org/10.3732/apps.1600035](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/apps.1600035). `r fa("android", fill = "gray")`
 1. PlotLocator  [paper by Boudell & Middleton](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.1002/aps3.11311) [github repo](https://github.com/jboudell/PlotLocator)    `r fa("android", fill = "gray")`
 1. [EpiCollect](https://five.epicollect.net/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
 1. [KoBoToolbox](https://www.kobotoolbox.org/)  `r fa("android", fill = "gray")`
