@@ -46,13 +46,13 @@ knitr::include_graphics("brunaLOGO.png")
 
 ## Introduction
 
-This list began as part of the group project for the 2011 edition of my graduate course in Plant-Animal Interactions. As part of the class, my students developed a guide to the native tree species of the University of Florida campus, with information on the their dispersers, pollinators, and herbivores. The students also wrote a [paper in the _Bulletin of the Ecological Society of America_](https://www.jstor.org/stable/bullecosociamer.93.4.390) describing the process and laying out some of the ways smartphones can be used in ecological research, teaching, and extension.
+This list began as part of the group project for the 2011 edition of my graduate course in Plant-Animal Interactions. As part of the class, my students developed a guide to the native tree species of the University of Florida campus, with information on the their dispersers, pollinators, and herbivores. The students also wrote a [paper in the _Bulletin of the Ecological Society of America_](https://www.jstor.org/stable/bullecosociamer.93.4.390) describing the process and laying out some of the ways smartphones can be used in ecological research, teaching, and extension.
 
 ## Essential Accessories 
 
-1. **A lanyard: **minimizes the risk of your phone getting damaged should it slip out of your hands or fall out of your pocket or pack. It is also a much quicker way to alternate between the phone and work requiring two hands.  You can find loads of wrist and neck lanyards online; including [glow-in-the-dark ones](http://www.usalanyards.com/glow-in-the-dark-cell-phone-straps-ly-603.aspx) that seem like they would be good for people working at night).
+1. **A lanyard: **minimizes the risk of your phone getting damaged should it slip out of your hands or fall out of your pocket or pack. It is also a much quicker way to alternate between the phone and work requiring two hands.  You can find loads of wrist and neck lanyards online; including [glow-in-the-dark ones](http://www.usalanyards.com/glow-in-the-dark-cell-phone-straps-ly-603.aspx) that seem like they would be good for people working at night).
 
-    Many lanyards require cases or phones with a lanyard slot. If your phone or case doesn't have one (e.g., iPhones), you can you can buy an aftermarket clip that you screw into the baseplate of your phone and just attach the lanyard to that. Right now I am using a carabiner clip from Poddities, which I just clip to the inexpensive but very sturdy UCSD Revelle College lanyard I use to carry my keys, though note it may not work with all cases and charging stands. If this is too big for your taste Poddities also makes a very low-profile base clip called the Netsuke (buy on Amazon), but note when my lanyard got snagged on a branch it slightly bent the base plate, making it a bit tough to for the Lightning cable to fit  properly.  
+    Many lanyards require cases or phones with a lanyard slot. If your phone or case doesn't have one (e.g., iPhones), you can you can buy an aftermarket clip that you screw into the baseplate of your phone and just attach the lanyard to that. Right now I am using a carabiner clip from Poddities, which I just clip to the inexpensive but very sturdy UCSD Revelle College lanyard I use to carry my keys, though note it may not work with all cases and charging stands. If this is too big for your taste Poddities also makes a very low-profile base clip called the Netsuke (buy on Amazon), but note when my lanyard got snagged on a branch it slightly bent the base plate, making it a bit tough to for the Lightning cable to fit  properly.  
 
     Beeline has launched a sweet-looking case with a built in retractable carabiner clip. UPDATE: My new fav is this simple, inexpensive silicone cell phone sling that you can clip to a lanyard.  
 
@@ -62,13 +62,13 @@ This list began as part of the group project for the 2011 edition of my graduate
 
      - **Microphone.** Essential for recording audio or conducting interviews. If you do playback you probably want better speakers too - the speakers on this list are all waterproof.
 
-      - **Selfie Stick.** I know, I know.  But it is useful for pictures of plots you can't reach, branches, and yes pictures of you doing field work. And don't pretend you didn't want an excuse to buy one. Get one with bluetooth shutter.
+      - **Selfie Stick.** I know, I know.  But it is useful for pictures of plots you can't reach, branches, and yes pictures of you doing field work. And don't pretend you didn't want an excuse to buy one. Get one with bluetooth shutter.
       
       - **Monopod or Tipod.**
 
       - **Photo Lens Kit**  Do you take photos in the field? Insects or leaves with a macro lens? Canopy photos with a fisheye lens? There are plenty of reviews of lens kits out there (maybe we can convince Alex to post an update to this 2010 Myrmecos.net post?).
 
-      - Where to buy accessories: In addition to Amazon, check out Photojojo, which has has a million (mostly iphone) accessories aimed at photographers, and there is  a lot here that would be of use to field scientists.
+      - Where to buy accessories: In addition to Amazon, check out Photojojo, which has has a million (mostly iphone) accessories aimed at photographers, and there is  a lot here that would be of use to field scientists.
 
 
 ## Apps (by Category)
@@ -99,13 +99,16 @@ This list began as part of the group project for the 2011 edition of my graduate
 
 ### Canopy Cover and Forest Structure 
 
-1. Canopy Cover and LAI
-      * [Canopeo](https://www.canopeoapp.com/#/login) `r fa("android", fill = "gray")`
-      * [Canopy Capture](https://nikp29.github.io/CanopyCapture/) `r fa("android", fill = "gray")`
-      * [Gap Light Aalysis](https://play.google.com/store/apps/details?id=new4.glama.glamanew4&hl=en_US&gl=US)  `r fa("android", fill = "gray")`
-      * [Pocket LAI](https://cassandratech.it/en/pocketlai-en/) (see also [this link](http://www.cassandralab.com/mobiles/1)) `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")` _(highly discounted for education)_
+##### Canopy Cover and LAI
+1. [Canopeo](https://www.canopeoapp.com/#/login) `r fa("android", fill = "gray")`
+1. [Canopy Capture](https://nikp29.github.io/CanopyCapture/) `r fa("android", fill = "gray")`
+1. [Gap Light Aalysis](https://play.google.com/store/apps/details?id=new4.glama.glamanew4&hl=en_US&gl=US)  `r fa("android", fill = "gray")`
+1. [Pocket LAI](https://cassandratech.it/en/pocketlai-en/) (see also [this link](http://www.cassandralab.com/mobiles/1)) `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")` _(highly discounted for education)_
 
+##### Forest Mapping
+1. [ForestScanner](https://apps.apple.com/us/app/forestscanner/id1599055402): measuring and mapping trees with LiDAR-equipped iPhone and iPad (for complete description see the [article](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13900) by Tatsumi _et al._ in _MEE_).
 1. DBH (with LiDAR) and [3D Scanner App](https://3dscannerapp.com/) `r fa("apple", fill = "gray")`. See [this example](https://sketchfab.com/3d-models/ipad-pro-lidar-forest-plot-scanning-fd6fed3a19d14f50ba4801b6c1a6ed60) and [paper by Martin Mokroš et al.](https://www.sciencedirect.com/science/article/pii/S0303243421002191)
+1. DBH and forest mapping with iPhone, [PIX4D](https://www.pix4d.com/), and [EMLID](emlid.com). See the video demo [here](./images/pix4d_emlid_forest_mapping.mov)
 
 ### Plant Traits & Plant-Animal Interactions
 
@@ -120,8 +123,9 @@ This list began as part of the group project for the 2011 edition of my graduate
     * [PocketN](http://www.cassandralab.com/mobiles/3): estimation of nitrogen content in plant tissues.
     
 ### Information on Local Environments
-
-1. [SoilWeb](https://casoilresource.lawr.ucdavis.edu/gmap/): portable version of online interface to USDA-NRCS digital soil survey   
+1. [Flir](https://www.flir.com/): high-resolution [thermal cameras that can be plugged into phones](https://www.flir.com/browse/industrial/mobile-accessories/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
+1. [SoilWeb](https://casoilresource.lawr.ucdavis.edu/gmap/): portable version of online interface to USDA-NRCS digital soil survey.  
+1. [Land App Mobile](https://thelandapp.com/land-app-mobile/) includes a Soil Survey feature designed to help farmers and land managers record, report, and review both lab and in-field soil measurements ([Land App](https://thelandapp.com/) is mapping software for land management in the UK).  
 1. Solar/Lunar Position, Timing, Duration, & Tracking
     * [Sun position and path](https://apps.apple.com/us/app/sun-position-and-path/id1502500167) `r fa("apple", fill = "gray")`
     * [LightTrac](https://apps.apple.com/us/app/lighttrac/id392892355) `r fa("apple", fill = "gray")` `r fa("dollar-sign", fill = "gray")`
@@ -162,7 +166,7 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [Leafsnap](http://leafsnap.com/) `r fa("apple", fill="gray")` 
 <!-- 1. [Guide to Trees of U Florida Campus]() -->
 1. [The OSU Campus Tree and Plant App](https://chadwickarboretum.osu.edu/research-and-education/campus-tree-mapping-0)
-<!-- 1. [NY Flora Association Blog](): A list of field guides for iPhone/iPad has been put together by the NY Flora Association and can be found here. It includes guides to everything from plants to mushrooms. -->
+<!-- 1. [NY Flora Association Blog](): A list of field guides for iPhone/iPad has been put together by the NY Flora Association and can be found here. It includes guides to everything from plants to mushrooms. -->
 
 ##### Birds
 1. [iBird](https://ibird.com/)`r fa("apple", fill="gray")` `r fa("android", fill = "gray")`
@@ -218,7 +222,7 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [GPS Kit](https://apps.apple.com/us/app/gps-kit-offline-gps-tracker/id287909017) `r fa("android", fill = "gray")` 
 1. [UTM RD GPS coords converter](https://apps.apple.com/us/app/utm-rd-gps-coords-converter/id1440292872). Convert degrees to UTM and _vice versa_.  `r fa("android", fill = "gray")`
 1. [MeasureMap](https://apps.apple.com/us/app/measure-map/id1247360674): lets you draw polygons on a hybrid Google map, save the polygons, and export as KML, CSV, PNG, MMP (proprietary format), and PDF. 
-<!-- (h/t EarthKnight who has a nice post describing apps used in his fieldwork)   -->
+<!-- (h/t EarthKnight who has a nice post describing apps used in his fieldwork)   -->
 1. [OruxMaps](https://www.oruxmaps.com/cs/en/): Especially useful for offline maps. `r fa("android", fill = "gray")`  
 1. [Avenza](https://www.avenzamaps.com/): works with Georefernced maps constructed with your favorite GIS software and has maps available for purchase, including from USFS and BLM. Free version allows three custom maps; unlimited maps on paid version. `r fa("android", fill = "gray")` `r fa("apple", fill="gray")`
 1. [QField](https://qfield.org/) QGIS's field app for recording and entering GIS data in the field on mobile. `r fa("android", fill = "gray")` `r fa("apple", fill="gray")`
@@ -229,7 +233,7 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [HerpMapper](https://www.herpmapper.org/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`  
 
 ##### Birds
-1. [African Raptor Observations](https://www.androidblip.com/android-apps/com.fluidfacades.habitatinfo.rapterobs.html): accurately locate raptor sightings even while offline and send in from anywhere on the continent.  Perhaps under Data Entry and Recording Observations  
+1. [African Raptor Observations](https://www.androidblip.com/android-apps/com.fluidfacades.habitatinfo.rapterobs.html): accurately locate raptor sightings even while offline and send in from anywhere on the continent.  Perhaps under Data Entry and Recording Observations  
 * [BirdLog](https://ebird.org/caribbean/news/birdlog) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")` `r fa("dollar-sign", fill = "gray")` the official app for data entry into the Cornell Lab of Ornithology's bird project.  
 
 ##### Plants  
@@ -237,7 +241,7 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [CalFlora](https://www.calflora.org/) `r fa("apple", fill="gray")` `r fa("android", fill = "gray")`: report native plant occurrences in California and then visualize them on the CalFlora map.
   
 ##### Invasive Species
-1. [What’s Invasive!](https://www.eddmaps.org/): submit geotagged photos and observations of invasive species
+1. [What’s Invasive!](https://www.eddmaps.org/): submit geotagged photos and observations of invasive species
 1. [IveGot1](https://myfwc.com/wildlifehabitats/nonnatives/report/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: Identify and report Invasive Species in Florida    
 1. [iMapInvasives]([iMapInvasives](https://www.imapinvasives.org/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`
 
@@ -258,10 +262,7 @@ This list began as part of the group project for the 2011 edition of my graduate
 
 1. [Roadkill App](https://roadkillapp.com/)  
 1. [Utah Roadkill Reporter](https://roadkill-reporter.utah.gov/).  
-
-&nbsp;
-&nbsp;
-~~1. [Urubu Mobile](https://sistemaurubu.com.br/)  `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: Developed by Brazil's Federal University in Lavras' Center for The Study of Road Ecology (UFLA/CBEE) this cool app is used to register animal roadkill to study and mitigate the impacts of roads (read more here and here). Available for download for Android phones here.  PS "Urubu" is "vulture"in Portuguese...typical Brazilian sense of humor!~~
+<!-- 1. [Urubu Mobile](https://sistemaurubu.com.br/)  `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: Developed by Brazil's Federal University in Lavras' Center for The Study of Road Ecology (UFLA/CBEE) this cool app is used to register animal roadkill to study and mitigate the impacts of roads (read more here and here). Available for download for Android phones here.  PS "Urubu" is "vulture"in Portuguese...typical Brazilian sense of humor! -->
 
 ##### Widlife Trafficking
 1. [Wildlife Witness](https://www.wildlifewitness.net/) `r fa("apple", fill="gray")`, `r fa("android", fill = "gray")`: allows tourists & locals to easily report wildlife trade by taking a photo, pinning the exact location of an incident and sending these important details to the wildlife trade monitoring netw[ork TRAFFIC (NB: this is AWESOME)  
@@ -285,11 +286,6 @@ This list began as part of the group project for the 2011 edition of my graduate
 1. [MIT App Inventor](http://ai2.appinventor.mit.edu/)
 
 
-## Contributions & Corrections
-
-If you would like to recommend an app for the list or suggest an edit, please do so as a 'new issue' [here](https://github.com/BrunaLab/apps_for_fieldwork/issues) or as a [pull request](https://github.com/BrunaLab/apps_for_fieldwork/pulls).
-
-
 ## References
 
 1. Boudell, J.A. and B.A. Middleton. 2019. Plot Locator: An app for locating plots in the field. Applications in Plant Sciences 7: e11311. https://doi.org/10.1002/aps3.11311 
@@ -297,4 +293,9 @@ If you would like to recommend an app for the list or suggest an edit, please do
 1. Teacher, A. G., D. J. Griffiths, D. J. Hodgson, & R. Inger. 2013. Smartphones in ecology and evolution: a guide for the app-rehensive. Ecology and Evolution, 3(16), 5268–5278. https://doi.org/10.1002/ece3.888 
 
 1. Palumbo, M. J., S. A. Johnson, F. M. Mundim, A. C. Wolf, S. Arunachalam, O. Gonzalez, A. Lau, J. L. Ulrich, A. Washuta, E. M. Bruna. 2012. Harnessing smartphones for ecological education, research, and outreach. Bulletin of the Ecological Society of America 93(4):390-393  https://doi.org/10.1890/0012-9623-93.4.390 
+
+
+## SUGGEST AN APP / SUBMIT CORRECTIONS
+
+If you would like to recommend an app for the list or suggest an edit, please do so by copying the text [here](https://github.com/BrunaLab/apps_for_fieldwork/issues) and submitting the requested information as a new issue. You can also submit a [pull request](https://github.com/BrunaLab/apps_for_fieldwork/pulls).
 
